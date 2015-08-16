@@ -9,7 +9,7 @@ package mandelbrot;
  *
  * @author don
  */ 
-enum Status {UNTOUCHED, UNDERWAY, CONVERGED, ESCAPED, MAXITERATIONS,OSCILLATES};
+enum Status {UNTOUCHED, UNDERWAY, CONVERGED, ESCAPED, MAXITERATIONS, OSCILLATES};
 
 class IterationRecord {		// fractal record giving point location and other attributes
     
